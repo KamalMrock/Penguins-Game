@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Find the Penguins</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="http://icons.iconarchive.com/icons/thehoth/seo/256/seo-penguin-icon.png" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+  
+    <audio id="yetisound">
+       <source src="audio/yeti.mp3" type="audio/mp3">
+       <source src="audio/yeti.wav" type="audio/wav">
+   </audio>
+    <audio id="jumpsound">
+       <source src="audio/bird1.mp3" type="audio/mp3">
+       <source src="audio/bird1.wav" type="audio/wav">
+   </audio>
+    
+    
+   
+    <div id="title"></div>
+    <div id="gameholder">
+        <div id="board">
+            <div id="shuffle">
+                <div id="penguin1" class="" onclick="begin();"></div>
+                <div id="penguin2" class="" onclick="begin();"></div>
+                <div id="penguin3" class="" onclick="begin();"></div>
+                <div id="penguin4" class="" onclick="begin();"></div>
+                <div id="penguin5" class="" onclick="begin();"></div>
+                <div id="penguin6" class="" onclick="begin();"></div>
+                <div id="penguin7" class="" onclick="begin();"></div>
+                <div id="penguin8" class="" onclick="begin();"></div>
+                <div id="yeti" class="" onclick="beginyeti();"></div>
+            </div>
+        </div>
+        <div id="score">
+
+           
+                <h3> Highest Score </h3>
+                <div class="scoreboard"><input id="highscoreCount" type="text" value="0" readonly placeholder="00"></div>
+                <h3>Score</h3>
+                <div class="scoreboard"><input id="scoreCount" type="text" value="0" readonly placeholder="00"></div>
+            <br>
+            <br>
+                <button id="resetID"> RESET</button>
+
+           
+           
+
+
+        </div>
+
+    </div>
+</body></html>

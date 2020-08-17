@@ -1,0 +1,232 @@
+body {
+    background-color: #ccf5f5;
+    font-family: serif;
+}
+
+#gameholder {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    width: 600px;
+    height: 150px;
+    background-image: url('../images/penguin_title.png');
+    margin: 0 auto;
+}
+
+#score {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    left: 75%;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: darkslategrey;
+    text-shadow: 2px 2px lightgrey;
+
+}
+
+#penguin1:hover {
+    background-image: url('../images/mound_1_hover.png');
+    cursor: pointer;
+}
+
+/*#penguin1:active {
+    background-image: url('../images/penguin_1.png');
+}*/
+.penguin1_show {
+    background-image: url(../images/penguin_1.png) !important;
+}
+
+#penguin1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_1.png');
+}
+
+
+
+
+
+
+#penguin2:hover {
+    background-image: url('../images/mound_2_hover.png');
+    cursor: pointer;
+}
+
+#penguin2 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_2.png');
+}
+
+.penguin2_show {
+    background-image: url(../images/penguin_2.png) !important;
+}
+
+#penguin3:hover {
+    background-image: url('../images/mound_3_hover.png');
+    cursor: pointer;
+}
+
+#penguin3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_3.png');
+}
+
+.penguin3_show {
+    background-image: url(../images/penguin_3.png) !important;
+}
+
+#penguin4:hover {
+    background-image: url('../images/mound_4_hover.png');
+    cursor: pointer;
+}
+
+#penguin4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_4.png');
+}
+
+.penguin4_show {
+    background-image: url(../images/penguin_4.png) !important;
+}
+
+#penguin5:hover {
+    background-image: url('../images/mound_5_hover.png');
+    cursor: pointer;
+}
+
+#penguin5 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_5.png');
+}
+
+.penguin5_show {
+    background-image: url(../images/penguin_5.png) !important;
+}
+
+#penguin6:hover {
+    background-image: url('../images/mound_6_hover.png');
+    cursor: pointer;
+}
+
+#penguin6 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_6.png');
+}
+
+.penguin6_show {
+    background-image: url(../images/penguin_6.png) !important;
+}
+
+#penguin7:hover {
+    background-image: url('../images/mound_7_hover.png');
+    cursor: pointer;
+}
+
+#penguin7 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_7.png');
+}
+
+.penguin7_show {
+    background-image: url(../images/penguin_7.png) !important;
+}
+
+#penguin8:hover {
+    background-image: url('../images/mound_8_hover.png');
+    cursor: pointer;
+}
+
+#penguin8 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_8.png');
+    -webkit-transition: background-image 0.5s;
+    transition: background-image 0.5s;
+}
+
+.penguin8_show {
+    background-image: url(../images/penguin_8.png) !important;
+}
+
+#yeti:hover {
+    background-image: url('../images/mound_9_hover.png');
+    cursor: pointer;
+}
+
+#yeti {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url('../images/mound_9.png');
+}
+
+.beginyeti {
+    background-image: url(../images/yeti.png) !important;
+}
+
+#highScore {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+#highScore h2 {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#scoreCount,
+#highscoreCount {
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+}
+
+#board {
+    width: 600px;
+    float: left;
+    border: 1px dotted gray;
+    margin-left: 20px;
+}
+
+
+
+#resetID {
+    width: 150px;
+    height: 70px;
+
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: darkslategrey;
+    text-shadow: 2px 2px lightgrey;
+
+
+    border: none;
+    background-color: transparent;
+
+}
